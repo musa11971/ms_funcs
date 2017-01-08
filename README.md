@@ -17,3 +17,18 @@ Generate and set a unique RCON password.
 `GetRCONPassword();`  
 Get the RCON password generated with the *GenerateRCONPassword* function.  
 Returns the password.
+
+`GetPlayerCountry(playerid);`  
+Get the players country, based on IP.  
+This does **not** work on local servers.  
+Returns the full country name. Example: "United Kingdom"  
+
+`GetPlayerCountryCode(playerid);`  
+Get the players country code, based on IP.  
+This does **not** work on local servers.  
+Returns the full country code. Example: "UK"
+
+`GetPlayerCity(playerid);`  
+Get the players city name, based on IP.  
+This does **not** work on local servers.  
+Returns the full city name. Example: "London"
